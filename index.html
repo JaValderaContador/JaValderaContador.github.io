@@ -76,6 +76,19 @@
         </tr>
     </table>
 
-    <button class="button">Click me</button>
+    <div id="Comentaries" class="common">
+        <p class="common underlined">Leave your commentarie here</p>
+    </div>
+
+    <input type="text" id="NewComment">
+    <button onclick="addComment()">Add comment</button>
+
+    <script>
+        function addComment(){
+            var inputVal = document.getElementById("NewComment").value;
+            var commentaries = document.getElementById("Comentaries");
+            commentaries.innerHTML = "<p>" + inputVal + "<p>";
+        }
+    </script>
 </body>
 </html>
