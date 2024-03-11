@@ -34,3 +34,7 @@ th, td {
     background: whitesmoke;
     color: black;
 }
+
+.underlined {
+    text-decoration: underline;
+}
