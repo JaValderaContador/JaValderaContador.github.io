@@ -29,3 +29,8 @@ th, td {
 .link {
     color:blue;
 }
+
+.button {
+    background: whitesmoke;
+    color: black;
+}
