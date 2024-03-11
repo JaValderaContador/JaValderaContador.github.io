@@ -30,14 +30,6 @@ th, td {
     color:blue;
 }
 
-.button {
-    background: whitesmoke;
-    color: black;
-    width: 30%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .underlined {
     text-decoration: underline;
 }
