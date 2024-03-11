@@ -1,0 +1,20 @@
+table {
+    background-color:aquamarine;
+    color: black;
+    margin: 10px;
+    border: 2px solid orchid;
+}
+
+body {
+    background-color: black;
+    font: 1em verdana;
+}
+
+.common {
+    color: white;
+}
+
+.table-header {
+    color: olivedrab;
+    text-decoration: underline;
+}
