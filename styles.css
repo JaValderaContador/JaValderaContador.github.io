@@ -2,12 +2,15 @@ table {
     background-color:aquamarine;
     color: black;
     margin: 10px;
-    border: 2px solid orchid;
+    border: 3px solid orchid;
+    width: 24%;
+    text-align: center;
 }
 
 body {
     background-color: black;
     font: 1em verdana;
+    margin: 3%;
 }
 
 .common {
@@ -17,4 +20,12 @@ body {
 .table-header {
     color: olivedrab;
     text-decoration: underline;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.link {
+    color:blue;
 }
