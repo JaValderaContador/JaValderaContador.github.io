@@ -27,9 +27,13 @@ th, td {
 }
 
 .link {
-    color:blue;
+    color:lightgreen;
 }
 
 .underlined {
     text-decoration: underline;
+}
+
+.center {
+    text-align: center;
 }
