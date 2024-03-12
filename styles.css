@@ -34,7 +34,7 @@ body, html {
     100% {
       background-position: 0% 50%;
     }
-  }
+}
 
 .content {
     position: relative;
@@ -96,7 +96,7 @@ th, td {
     100% {
       color: #ff0000;
     }
-  }
+}
 
 .colorful {
     animation: rainbow 4s linear infinite;
@@ -116,4 +116,30 @@ th, td {
     position: absolute;
     max-width: 100%;
     height: auto;
-  }
+}
+
+@keyframes golden {
+    0% {
+        color:gold;
+    }
+
+    25% {
+        color:white;
+    }
+
+    50% {
+        color:goldenrod;
+    }
+
+    75% {
+        color:white;
+    }
+
+    100% {
+        color: gold;
+    }
+}
+
+.golden {
+    animation: golden 4s linear infinite;
+}
