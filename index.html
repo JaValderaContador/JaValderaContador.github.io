@@ -6,97 +6,101 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="common center">Javier Antonio Valdera Contador</h1>
+    <div class="background"></div>
 
-    <p class="common center">Computer engineer, Universidad de los Andes</p>
-    <p class="common center">Year of University enrollment: 2021</p>
+    <div class="content">
+        <h1 class="common center">Javier Antonio Valdera Contador</h1>
 
-    <a href="github-links.html" class="link">Click here to reach GitHub Links</a>
-    <p class="common underlined">Personal Summary:</p>
+        <p class="common center">Computer engineer, Universidad de los Andes</p>
+        <p class="common center">Year of University enrollment: 2021</p>
 
-    <ul class="common">
-        <li>Born in July 9th, 2002</li>
-        <li>Actual age: 21 y/o</li>
-        <li>Current location: La Florida, Santiago, Chile</li>
-        <li>Hobbies: Videogames, Racing & Music</li>
-        <li>An uncknown fact: Need For Speed: Rivals World Champion 2023</li>
-        <li>Love state: In a relationship</li>
-        <li>Dream: To become a racing driver</li>
-        <li>Fav food: Sushi</li>
-        <li>Fav color: Green</li>
-    </ul>
+        <a href="github-links.html" class="link">Click here to reach GitHub Links</a>
+        <p class="common underlined">Personal Summary:</p>
 
-    <p class="common underlined">Skills:</p>
+        <ul class="common">
+            <li>Born in July 9th, 2002</li>
+            <li>Actual age: 21 y/o</li>
+            <li>Current location: La Florida, Santiago, Chile</li>
+            <li>Hobbies: Videogames, Racing & Music</li>
+            <li>An uncknown fact: Need For Speed: Rivals World Champion 2023</li>
+            <li>Love state: In a relationship</li>
+            <li>Dream: To become a racing driver</li>
+            <li>Fav food: Sushi</li>
+            <li>Fav color: Green</li>
+        </ul>
 
-    <table id="Skills-table">
-        <tr class="table-header">
-            <td>Skill</td>
-            <td>Level</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>Expert</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>Advance</td>
-        </tr>
-        <tr>
-            <td>HTML/CSS</td>
-            <td>Medium</td>
-        </tr>
-        <tr>
-            <td>Git</td>
-            <td>Expert</td>
-        </tr>
-        <tr>
-            <td>Excel</td>
-            <td>Advance</td>
-        </tr>
-        <tr>
-            <td>SQL</td>
-            <td>Expert</td>
-        </tr>
-        <tr>
-            <td>Ruby</td>
-            <td>Basic</td>
-        </tr>
-        <tr>
-            <td>English</td>
-            <td>Expert</td>
-        </tr>
-        <tr>
-            <td>Spanish</td>
-            <td>Native</td>
-        </tr>
-        <tr>
-            <td>Russian</td>
-            <td>Advance</td>
-        </tr>
-        <tr>
-            <td>Italian</td>
-            <td>Medium</td>
-        </tr>
-    </table>
+        <p class="common underlined">Skills:</p>
 
-    <div id="Comentaries" class="common">
-        <p class="common underlined">Leave a note here</p>
+        <table id="Skills-table">
+            <tr class="table-header">
+                <td>Skill</td>
+                <td>Level</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Advance</td>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Git</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>Excel</td>
+                <td>Advance</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>Spanish</td>
+                <td>Native</td>
+            </tr>
+            <tr>
+                <td>Russian</td>
+                <td>Advance</td>
+            </tr>
+            <tr>
+                <td>Italian</td>
+                <td>Medium</td>
+            </tr>
+        </table>
+
+        <div id="Comentaries" class="common">
+            <p class="common underlined">Leave a note here</p>
+        </div>
+
+        <input type="text" id="NewComment">
+        <button onclick="addComment()">Add comment</button>
+
+        <script>
+            function addComment(){
+                var inputVal = document.getElementById("NewComment").value;
+                var commentaries = document.getElementById("Comentaries");
+                commentaries.innerHTML = "<p>" + inputVal + "<p>";
+            }
+        </script>
+
+        <p></p>
+
+        <a href="extra.html" class="link">Click here to see extra stuff</a>
     </div>
-
-    <input type="text" id="NewComment">
-    <button onclick="addComment()">Add comment</button>
-
-    <script>
-        function addComment(){
-            var inputVal = document.getElementById("NewComment").value;
-            var commentaries = document.getElementById("Comentaries");
-            commentaries.innerHTML = "<p>" + inputVal + "<p>";
-        }
-    </script>
-
-    <p></p>
-
-    <a href="extra.html" class="link">Click here to see extra stuff</a>
 
 </body>
 </html>
