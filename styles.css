@@ -101,3 +101,13 @@ th, td {
 .colorful {
     animation: rainbow 4s linear infinite;
 }
+
+img {
+    position: absolute;
+    top:50%;
+    right: 0;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid black;
+  }
