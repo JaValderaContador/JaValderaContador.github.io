@@ -122,19 +122,15 @@ th, td {
     0% {
         color:gold;
     }
-
     25% {
         color:white;
     }
-
     50% {
         color:goldenrod;
     }
-
     75% {
         color:white;
     }
-
     100% {
         color: gold;
     }
