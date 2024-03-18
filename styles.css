@@ -113,3 +113,8 @@ body {
 .golden {
     animation: golden 4s linear infinite;
 }
+
+.carousel_image {
+    width: 70%;
+    border: 3px solid black;
+}
