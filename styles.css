@@ -90,6 +90,7 @@ body {
 
 .image_1 {
     border: 3px solid black;
+    width: 100%;
 }
 
 @keyframes golden {
@@ -117,4 +118,8 @@ body {
 .carousel_image {
     width: 70%;
     border: 3px solid black;
+}
+
+.black_bg {
+    background-color: black;
 }
